@@ -55,8 +55,8 @@ jobs:
           SLACK_BOT_TOKEN: ${{ secrets.SLACK_BOT_TOKEN }}
           SLACK_CHANNEL_ID: ${{ secrets.SLACK_CHANNEL_ID }}
           NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
-          NOTION_MILESTONE_DB_ID: ${{ secrets.NOTION_MILESTONE_DB_ID }}
-          NOTION_COMMERCE_DB_ID: ${{ secrets.NOTION_COMMERCE_DB_ID }}
+          NOTION_MILESTONE_DS_ID: ${{ secrets.NOTION_MILESTONE_DS_ID }}
+          NOTION_COMMERCE_DS_ID: ${{ secrets.NOTION_COMMERCE_DS_ID }}
         run: python main.py ${{ steps.mode.outputs.args }}
 
       - name: state 커밋

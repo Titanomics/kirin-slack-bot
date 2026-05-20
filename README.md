@@ -14,8 +14,8 @@
 | `SLACK_BOT_TOKEN` | `xoxb-...` |
 | `SLACK_CHANNEL_ID` | `C...` |
 | `NOTION_TOKEN` | `ntn_...` |
-| `NOTION_MILESTONE_DB_ID` | 신제품 마일스톤 DB ID |
-| `NOTION_COMMERCE_DB_ID` | 커머스팀 전체 업무 DB ID |
+| `NOTION_MILESTONE_DS_ID` | 신제품 마일스톤 Data Source ID (Notion API 2025-09-03) |
+| `NOTION_COMMERCE_DS_ID` | 커머스팀 전체 업무 Data Source ID (Notion API 2025-09-03) |
 
 ## 로컬 실행
 

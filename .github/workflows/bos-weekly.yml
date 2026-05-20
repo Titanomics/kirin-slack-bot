@@ -1,0 +1,35 @@
+name: BOS자비스 주간 자가 진단
+
+on:
+  workflow_dispatch:  # 수동 트리거
+  schedule:
+    # 매주 일요일 19:30 KST = 10:30 UTC
+    - cron: '30 10 * * 0'
+
+jobs:
+  bos-diagnostic:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+
+    steps:
+      - name: 체크아웃
+        uses: actions/checkout@v4
+
+      - name: Python 셋업
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: 의존성 설치
+        run: |
+          pip install -r requirements.txt
+
+      - name: BOS자비스 실행
+        env:
+          BOS_SLACK_BOT_TOKEN: ${{ secrets.BOS_SLACK_BOT_TOKEN }}
+          BOS_SLACK_CHANNEL_ID: ${{ secrets.BOS_SLACK_CHANNEL_ID }}
+          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          NOTION_MILESTONE_DS_ID: ${{ secrets.NOTION_MILESTONE_DS_ID }}
+          NOTION_COMMERCE_DS_ID: ${{ secrets.NOTION_COMMERCE_DS_ID }}
+        run: python bos_jarvis.py

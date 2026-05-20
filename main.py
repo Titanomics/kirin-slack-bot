@@ -32,11 +32,11 @@ NOTION_API = "https://api.notion.com/v1"
 NOTION_VERSION = "2025-09-03"
 
 ITEM_COLORS = {
-    "솔잎": "#9C7CB5",
-    "하임리히": "#F5A6B6",
-    "미백치약": "#B5A88B",
-    "솔직한알": "#C9A8E0",
-    "공통": "#A0A0A0",
+    "솔잎": "#2E7D32",      # 초록 — 자연/식물
+    "하임리히": "#D32F2F",   # 빨강 — 응급/긴급
+    "미백치약": "#1976D2",   # 파랑 — 시원/깨끗
+    "솔직한알": "#F9A825",   # 노랑 — 계란/원물 (알부민)
+    "공통": "#607D8B",       # 회색 — 중립
 }
 
 
@@ -185,7 +185,7 @@ def render_gantt(rows: list[dict], title: str) -> str:
         color = ITEM_COLORS.get(r.get("item", ""), "#A0A0A0")
         used_colors.add((r.get("item", "") or "공통", color))
 
-        ax.barh(i, duration, left=start_d, color=color, alpha=0.85, edgecolor="#444", linewidth=0.5)
+        ax.barh(i, duration, left=start_d, color=color, alpha=1.0, edgecolor="#222", linewidth=0.6)
         y_labels.append(r["title"])
 
     ax.set_yticks(range(n))

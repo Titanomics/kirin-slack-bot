@@ -2,11 +2,10 @@ name: 기린 데일리 다이제스트
 
 on:
   schedule:
-    # KST 09:00 = UTC 00:00 (풀 다이제스트)
-    # KST 12:00 = UTC 03:00 (diff)
-    # KST 15:00 = UTC 06:00 (diff)
-    # KST 18:00 = UTC 09:00 (diff)
-    - cron: "0 0,3,6,9 * * *"
+    # KST 09:00 = UTC 00:00 → 풀 다이제스트 (변화 없어도 무조건)
+    - cron: "0 0 * * *"
+    # KST 12:00 / 15:00 / 18:00 = UTC 03/06/09 → diff 모드 (변화 있을 때만)
+    - cron: "0 3,6,9 * * *"
   workflow_dispatch:
     inputs:
       force_full:
@@ -42,9 +41,13 @@ jobs:
       - name: 모드 결정
         id: mode
         run: |
-          # UTC 0시(=KST 9시) 또는 수동 force_full=true → 풀 다이제스트
-          UTC_HOUR=$(date -u +%-H)
-          if [ "${{ github.event.inputs.force_full }}" = "true" ] || [ "$UTC_HOUR" = "0" ]; then
+          # 트리거 시점 기준 (실행 지연 무관):
+          # - schedule "0 0 * * *" (KST 09:00) → 풀 다이제스트
+          # - workflow_dispatch + force_full=true → 풀 다이제스트
+          # - 그 외 (KST 12/15/18) → diff 모드
+          if [[ "${{ github.event.inputs.force_full }}" == "true" ]]; then
+            echo "args=--force-full" >> $GITHUB_OUTPUT
+          elif [[ "${{ github.event.schedule }}" == "0 0 * * *" ]]; then
             echo "args=--force-full" >> $GITHUB_OUTPUT
           else
             echo "args=" >> $GITHUB_OUTPUT

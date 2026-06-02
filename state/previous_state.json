@@ -117,7 +117,7 @@
       "start": "2026-06-01",
       "end": "2026-06-01",
       "status": "🟦 예정",
-      "last_edited": "2026-05-27T06:41:00.000Z"
+      "last_edited": "2026-06-02T03:01:00.000Z"
     },
     "362ee3c4-ea65-81b6-80fb-dd4205363489": {
       "title": "솔잎 가격·마진 확정",
@@ -128,138 +128,131 @@
     }
   },
   "commerce": {
-    "362ee3c4-ea65-801b-8949-db478d5dc660": {
-      "title": "데일리 루틴 잡기 (키워드,프롬프트점검,배포)",
-      "start": "2026-06-05",
-      "end": "2026-06-05",
-      "status": "This Week",
-      "last_edited": "2026-06-02T02:10:00.000Z"
-    },
     "362ee3c4-ea65-8011-aeb2-de480b8d3545": {
       "title": "데일리 노트 만들어서 작성 - 공유",
       "start": "2026-05-18",
       "end": "2026-05-18",
       "status": "This Week",
-      "last_edited": "2026-05-16T13:20:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-814f-a4f0-d4e66706eecd": {
       "title": "하임리히 사업가 콘텐츠 기획안 작성",
       "start": "2026-05-20",
       "end": "2026-05-20",
       "status": "Done",
-      "last_edited": "2026-06-02T02:10:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-81a5-a550-db40346a6f4a": {
       "title": "하임리히 사업가 콘텐츠 1편 발행",
       "start": "2026-06-05",
       "end": "2026-06-05",
       "status": "This Week",
-      "last_edited": "2026-06-02T02:10:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-81bc-8888-e836834d381e": {
       "title": "솔잎 패키지 디자인",
-      "start": "2026-05-29",
-      "end": "2026-05-29",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
       "status": "Backlog",
-      "last_edited": "2026-05-16T13:05:00.000Z"
+      "last_edited": "2026-06-02T03:39:00.000Z"
     },
     "362ee3c4-ea65-81d5-b56a-ccc0a86f3843": {
       "title": "솔잎 정식 출시",
       "start": "2026-07-03",
       "end": "2026-07-03",
       "status": "Backlog",
-      "last_edited": "2026-05-16T13:30:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8114-bc4b-d937c500f0ea": {
       "title": "솔직한알 리뷰 회수 프로세스 점검",
       "start": "2026-05-22",
       "end": "2026-05-22",
       "status": "Backlog",
-      "last_edited": "2026-05-16T13:08:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8184-8ca8-c0a8eb7e8775": {
       "title": "미백치약 컨셉 1장 작성",
       "start": "2026-07-01",
       "end": "2026-07-01",
       "status": "Backlog",
-      "last_edited": "2026-05-16T13:30:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-81fc-8ddd-ef7305c04f02": {
       "title": "팀 카드 작성 규칙 공유",
       "start": "2026-05-19",
       "end": "2026-05-19",
       "status": "Backlog",
-      "last_edited": "2026-06-01T06:57:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8139-824b-c35c5ef3aaeb": {
       "title": "미백치약 우선순위 결정",
       "start": "2026-05-24",
       "end": "2026-05-24",
       "status": "Backlog",
-      "last_edited": "2026-06-01T06:58:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8160-80f3-d8f08a65b4bc": {
       "title": "솔직한알 6월 캠페인 디자인",
       "start": "2026-06-07",
       "end": "2026-06-07",
       "status": "Backlog",
-      "last_edited": "2026-05-16T10:28:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-81c7-9f40-c2a92729073a": {
       "title": "솔잎 가격·마진표 작성",
       "start": "2026-06-12",
       "end": "2026-06-12",
       "status": "Backlog",
-      "last_edited": "2026-05-16T13:31:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8135-9872-c09b73832511": {
       "title": "위클리 싱크 정기 일정 등록",
       "start": "2026-05-18",
       "end": "2026-05-18",
       "status": "Backlog",
-      "last_edited": "2026-06-01T06:57:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8143-8de6-ec5bbdae4d4b": {
       "title": "하임리히 컨셉 1장 작성",
       "start": "2026-05-22",
       "end": "2026-05-22",
       "status": "This Week",
-      "last_edited": "2026-06-02T02:10:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-816f-a352-d4a1ac948489": {
       "title": "솔직한알 주간 KPI 입력 (W20)",
       "start": "2026-05-18",
       "end": "2026-05-18",
       "status": "In Progress",
-      "last_edited": "2026-05-16T13:32:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8127-ae1b-ecbb47bff2f5": {
       "title": "솔잎 상세페이지 디자인",
       "start": "2026-07-05",
       "end": "2026-07-05",
       "status": "Backlog",
-      "last_edited": "2026-05-16T10:28:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-8177-84e4-f5e5f6e2703d": {
       "title": "솔직한알 주간 트래커 시트 셋업",
       "start": "2026-05-20",
       "end": "2026-05-20",
       "status": "This Week",
-      "last_edited": "2026-05-16T13:32:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-819d-b35a-e3766a62bb47": {
       "title": "솔직한알 6월 캠페인 기획",
       "start": "2026-05-31",
       "end": "2026-05-31",
       "status": "Backlog",
-      "last_edited": "2026-05-16T10:28:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     },
     "362ee3c4-ea65-819f-bb4c-c5cacd62569f": {
       "title": "월간 KPI 보고 양식 작성",
       "start": "2026-05-31",
       "end": "2026-05-31",
       "status": "Backlog",
-      "last_edited": "2026-06-01T06:57:00.000Z"
+      "last_edited": "2026-06-02T02:57:00.000Z"
     }
   }
 }

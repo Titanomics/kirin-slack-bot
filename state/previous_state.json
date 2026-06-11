@@ -119,49 +119,49 @@
       "start": "2026-06-22",
       "end": "2026-06-26",
       "status": "Waiting",
-      "last_edited": "2026-06-08T02:35:00.000Z"
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "375ee3c4-ea65-8051-909a-dfd2b5138f86": {
       "title": "자사몰 셋팅",
       "start": "2026-06-08",
       "end": "2026-07-15",
       "status": "In Progress",
-      "last_edited": "2026-06-08T03:00:00.000Z"
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "375ee3c4-ea65-803d-ac05-c494d5802dbf": {
       "title": "상세페이지 기획",
       "start": "2026-06-08",
       "end": "2026-06-17",
       "status": "In Progress",
-      "last_edited": "2026-06-08T02:25:00.000Z"
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "375ee3c4-ea65-8014-9e18-dac544ec1d17": {
       "title": "스틱 포장 검수",
       "start": "2026-06-08",
       "end": "2026-06-30",
       "status": "Waiting",
-      "last_edited": "2026-06-08T02:49:00.000Z"
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "375ee3c4-ea65-804b-92af-cae1be4f134a": {
       "title": "박스 검수",
       "start": "2026-06-08",
       "end": "2026-06-08",
       "status": "Done",
-      "last_edited": "2026-06-08T02:25:00.000Z"
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "375ee3c4-ea65-80b4-8b35-db8d2277b286": {
       "title": "제품정보 취득",
       "start": "2026-06-08",
       "end": "2026-06-22",
       "status": "In Progress",
-      "last_edited": "2026-06-08T02:24:00.000Z"
+      "last_edited": "2026-06-11T00:45:00.000Z"
     },
     "375ee3c4-ea65-8040-bc0b-d13f271c7a83": {
       "title": "재료가 공유 받기 (박스,필름,원물)",
       "start": "2026-06-05",
       "end": "2026-06-10",
-      "status": "In Progress",
-      "last_edited": "2026-06-08T02:24:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-06-11T00:45:00.000Z"
     },
     "276ee3c4-ea65-83be-9d9b-8172aa9670cc": {
       "title": "데일리 스크럼 공유",
@@ -181,8 +181,8 @@
       "title": "가격·마진표 대시보드 작성",
       "start": "2026-06-12",
       "end": "2026-06-12",
-      "status": "Waiting",
-      "last_edited": "2026-06-04T06:36:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-06-11T00:44:00.000Z"
     },
     "296ee3c4-ea65-82fd-8d9e-01659b45578d": {
       "title": "패키지 디자인 제작",

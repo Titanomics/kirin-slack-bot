@@ -111,15 +111,15 @@
       "title": "키워드 서치",
       "start": "2026-07-03",
       "end": "2026-07-03",
-      "status": "Backlog",
-      "last_edited": "2026-06-08T06:45:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-07-27T14:26:00.000Z"
     },
     "375ee3c4-ea65-8068-9675-cf33bb64dea8": {
       "title": "인쇄용 최종파일 업체 넘기기",
       "start": "2026-06-26",
       "end": "2026-07-10",
-      "status": "Waiting",
-      "last_edited": "2026-06-30T04:32:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-07-27T14:26:00.000Z"
     },
     "375ee3c4-ea65-8051-909a-dfd2b5138f86": {
       "title": "자사몰 셋팅",
@@ -133,56 +133,56 @@
       "start": "2026-06-08",
       "end": "2026-06-17",
       "status": "In Progress",
-      "last_edited": "2026-06-30T04:30:00.000Z"
+      "last_edited": "2026-07-27T14:04:00.000Z"
     },
     "375ee3c4-ea65-8014-9e18-dac544ec1d17": {
       "title": "스틱 포장 검수",
       "start": "2026-06-08",
       "end": "2026-06-30",
-      "status": "Waiting",
-      "last_edited": "2026-06-11T00:44:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-07-27T14:25:00.000Z"
     },
     "375ee3c4-ea65-804b-92af-cae1be4f134a": {
       "title": "박스 검수",
       "start": "2026-06-08",
       "end": "2026-06-08",
       "status": "Done",
-      "last_edited": "2026-06-11T00:44:00.000Z"
+      "last_edited": "2026-07-27T14:01:00.000Z"
     },
     "375ee3c4-ea65-80b4-8b35-db8d2277b286": {
       "title": "제품정보 취득",
       "start": "2026-06-08",
       "end": "2026-06-22",
-      "status": "In Progress",
-      "last_edited": "2026-06-11T00:45:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-07-27T14:25:00.000Z"
     },
     "375ee3c4-ea65-8040-bc0b-d13f271c7a83": {
       "title": "재료가 공유 받기 (박스,필름,원물)",
       "start": "2026-06-05",
       "end": "2026-06-10",
       "status": "Done",
-      "last_edited": "2026-06-11T00:45:00.000Z"
+      "last_edited": "2026-07-27T14:24:00.000Z"
     },
     "74fee3c4-ea65-832c-9793-81425431a549": {
       "title": "정식 출시",
       "start": "2026-08-07",
       "end": "2026-08-10",
-      "status": "Backlog",
-      "last_edited": "2026-07-15T05:22:00.000Z"
+      "status": "Waiting",
+      "last_edited": "2026-07-27T12:54:00.000Z"
     },
     "e50ee3c4-ea65-82e3-a7ab-010ded92ff30": {
       "title": "가격·마진표 대시보드 작성",
       "start": "2026-06-12",
       "end": "2026-06-12",
       "status": "Done",
-      "last_edited": "2026-06-11T00:44:00.000Z"
+      "last_edited": "2026-07-27T14:01:00.000Z"
     },
     "296ee3c4-ea65-82fd-8d9e-01659b45578d": {
       "title": "패키지 디자인 제작",
       "start": "2026-06-01",
       "end": "2026-07-13",
-      "status": "In Progress",
-      "last_edited": "2026-06-30T04:42:00.000Z"
+      "status": "Done",
+      "last_edited": "2026-07-27T13:46:00.000Z"
     },
     "21bee3c4-ea65-8312-bb52-016345b68137": {
       "title": "사업가 콘텐츠 1편 발행",
@@ -244,8 +244,8 @@
       "title": "상세페이지 제작",
       "start": "2026-07-10",
       "end": "2026-07-29",
-      "status": "Waiting",
-      "last_edited": "2026-07-21T02:15:00.000Z"
+      "status": "This Week",
+      "last_edited": "2026-07-27T12:54:00.000Z"
     },
     "be9ee3c4-ea65-83f1-ac67-8172a792ccc6": {
       "title": "솔직한알 리뷰 회수 프로세스 점검",
